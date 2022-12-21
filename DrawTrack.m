@@ -40,11 +40,11 @@ end
 
 hold on
 for i=1:1:Maxcolumn
-plot(Ax(i,:),Ay(i,:))
-
-plot(MaxDis(1,:),MaxHeight(1,:),'*b')
+    plot(Ax(i,:),Ay(i,:))
 end
-legend('殺球','平球','低位高遠球')
+plot(MaxDis(1,:),MaxHeight(1,:),'*b')
+legend("殺球","平抽球","低位高遠球","高位高遠球","近網吊球","軌道最高點")
+
 xlabel("水平距離");
 ylabel("垂直高度");
 hold off

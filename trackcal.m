@@ -1,5 +1,5 @@
 function [HorizonDis,height]=trackcal(Vi,deg,InitialPos)
-%[HorizonDis,height]=trackcal([80;50;50],[-10;0;50],[2;1.6;0.9])要用分號不能用逗號
+%[HorizonDis,height]=trackcal([80;50;50;60;40],[-10;0;50;40;30],[2;1.6;0.9;1.7;0.9])要用分號不能用逗號
 %殺球,平球,低位高遠球
 m=5.19;
 G=9.8;
